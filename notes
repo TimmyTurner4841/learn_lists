@@ -1,0 +1,30 @@
+| Type  | Brackets                       | Mutable?                   |
+| ----- | ------------------------------ | -------------------------- |
+| List  | `[]`                           | ✅ Yes                      |
+| Tuple | `()`                           | ❌ No                       |
+| Array | `[]` or via NumPy/array module | ✅ Yes (depends on library) |
+
+| Data Type      | Brackets          | Key Features                          |
+| -------------- | ----------------- | ------------------------------------- |
+| List           | `[]`              | Ordered, mutable, allows duplicates   |
+| Tuple          | `()`              | Ordered, immutable, allows duplicates |
+| Set            | `{}`              | Unordered, unique values only         |
+| Dictionary     | `{}`              | Key-Value pairs                       |
+| Array (module) | `[]` or array lib | Efficient numeric storage             |
+
+//For main.py we were handling the iteration of numbers from the smallest to find the largest
+//so basically i started with creating the list of numbers for consideration of an iteration e.g [0,1,2....n]
+//Then i created a slot for which the number has to get into in order for us to identify the largest number and then
+it should hold the value of the initial figure in the list I am considering
+//And then we set a loop condition(for) that allows for the position to check for the numbers in the consideration list,
+so the programme can iterate through every bit of the figure embedded into the list and then end with a column
+//Then add a nested if loop creating an indentation and starting by the next instance after the for command, this loop
+is basically going to satisfy the condition that in any case that the for loop condition begins to iterate the variable
+in Al.L3 should be checked if it is greater than the corresponding variable in the Al.L4 which is a position, if not it
+is iterated and it happens again and again until a number greater is found
+//Then set a formula that when this number is found, the variable is a container already of that number but let it be
+that this variable is made equal to that number that is found in the position.
+//After that we realize that after jumping to the next line, we are caught in an indent but we need to print the full
+output of the programmes we have written and so we backspace the cursor to the beginning of our code and then ensure
+that it's inline with our first statement
+//Then add our print statement "Print(variable)"
